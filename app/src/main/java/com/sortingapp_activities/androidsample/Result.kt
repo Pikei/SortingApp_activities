@@ -1,7 +1,6 @@
 package com.sortingapp_activities.androidsample
 
 import android.content.Intent
-import android.graphics.Paint.Align
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -35,7 +34,6 @@ class Result() : AppCompatActivity() {
     }
 
     fun explain(view: View) {
-
         when(method) {
             "Bubble Sort" -> explainBubbleSort()
             "Quick Sort" -> explainQuickSort()
@@ -128,8 +126,6 @@ class Result() : AppCompatActivity() {
             binding.explanation.visibility = View.VISIBLE
             printExample = false
         }
-
-
     }
 
     fun goBack(view: View) {

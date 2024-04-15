@@ -55,18 +55,4 @@ class MainActivity : AppCompatActivity() {
             binding.errorMessage.visibility = View.VISIBLE
         }
     }
-
-//    private fun bubbleSortAction(view: View): IntArray {
-//        val bubbleSort = BubbleSort(getNumbers())
-//        bubbleSort.bubbleSort()
-//        return bubbleSort.getArray()
-//    }
-//
-//    private fun quickSortAction(view: View): IntArray {
-//        val quickSort = QuickSort(getNumbers())
-//        quickSort.sort()
-//        return quickSort.getArray()
-//    }
-//
-
 }
